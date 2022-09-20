@@ -1,14 +1,14 @@
 const courses = [
     {
-        name: "HTML, CSS",
+        name: "Usually",
     },
 
     {
-        name: "Responsive Web Design",
+        name: "when we want to render a list of elements",
     },
 
     {
-        name: "ReactJS",
+        name: "we will use the map() method.",
     },
 ];
 
@@ -21,10 +21,4 @@ const jsx = (
 
 ReactDOM.render(jsx, document.getElementById('root'));
 
-const jsx2 = [
-    <h1>Hello!!!</h1>,
-    <h2>Hi</h2>
-];
-
-ReactDOM.render(jsx2, document.getElementById('root'));
 
