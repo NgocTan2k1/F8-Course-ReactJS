@@ -99,3 +99,25 @@ function App3() {
 };
 
 ReactDOM.render( <App3 />, document.getElementById('root3'));
+
+//render children props
+const cars = ["BWM", "Honda", "Mazada", "Porches"]
+
+function List({data, children}) {
+    return (
+        <ul>
+            {data.map(children)}
+        </ul>
+    );
+};
+
+function App4() {
+    return (
+        <div id="wrapper">
+            <List data = {cars}>
+                {(item, index) => <li key={index}>{item}</li>}
+            </List>
+        </div>
+    )
+};
+ReactDOM.render( <App4 />, document.getElementById('root4'));
