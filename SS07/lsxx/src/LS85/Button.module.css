@@ -1,0 +1,25 @@
+.heading85 {
+    padding-left: 40px;
+    margin-left: 40px;
+    margin-bottom: 21.44px;
+    border: 1px solid #ccc;
+    color: red;
+}
+
+.btn {
+    margin-bottom: 21.44px;
+    padding: 8px 20px;
+    border-radius: 4px;
+
+    
+}
+
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.primary {
+    color: #fff;
+    background-color: #007bfe;
+}
